@@ -16,11 +16,9 @@ public class Main {
     public static void main(String args[])
     {
         Product p=new Product();
-        int x = 0,y=1,z=2;
-        double a=1.1,b=2.2;
-        p.product(x,y);
-        p.product(x,y,z);
-        p.product(a,b);
+        p.product(0,1);
+        p.product(1,2,3);
+        p.product(1.10,2.20);
     }
 
 }
